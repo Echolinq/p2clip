@@ -17,8 +17,5 @@ fn main() {
 
     let mut clipboard = Clipboard::new().unwrap();
     clipboard.set_text(input.trim()).unwrap();
-    
-    // let the_string = "Hello, world!";
-	// clipboard.set_text(the_string).unwrap();
 
 }
